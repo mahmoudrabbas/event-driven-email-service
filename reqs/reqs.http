@@ -1,0 +1,14 @@
+### Create Project
+
+POST http://localhost:8080/projects
+Content-Type: application/json
+
+{
+  "client_name": "Mahmoud R Abbas",
+  "email": "b80a569eab@emailinbo.live",
+  "company": "ValtQ",
+  "project_name": "AI SaaS",
+  "service": "MVP",
+  "budget": "5000 USD",
+  "description": "Artificial Intelligence Platform"
+}
